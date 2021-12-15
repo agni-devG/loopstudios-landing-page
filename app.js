@@ -1,5 +1,7 @@
 const ham = document.querySelector('.ham');
-
+const hideNav = document.querySelector('.hidden-nav');
+const header = document.querySelector('header')
 ham.addEventListener('click',function(){
-    ham.classList.toggle('hide')
+    hideNav.classList.toggle('hide')
+    header.classList.toggle('black')
 })
